@@ -4,7 +4,7 @@
     font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
-        "width" 100;
+        "wdth" 100;
 }
 
 /* header style */
@@ -77,4 +77,108 @@
     justify-content: space-between;
     align-items: center;
     margin: 48px 398px;
+}
+
+/* midnight party style */
+
+.midnight-party {
+    background-image: url(../images/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 120px 140px;
+}
+.midnight-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+
+.midnight-party-title {
+    color: #FFFFFF;
+    font-size: 64px;
+    margin-top: 126px;
+    margin-left: 126px;
+    width: 642px;
+    height: 176px;
+
+}
+.midnight-party-description {
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 126px;
+    margin-top: 24px;
+
+}
+.midnight-pic {
+    margin-top: 68px;
+    margin-right: 138px;
+}
+.btn {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 48px;
+    margin-left: 158px;
+    
+}
+/* container place style */
+.container {
+    background-color: rosybrown ;
+    width: 1047px;
+    height: 382px;
+    padding: 120px 140px;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 132px;
+    border-radius: 15px;
+    font-size: 32px;
+}
+ /* .container {
+    margin: 100px 386px;
+    background-color: #FF0000;
+    /* opacity: 10%; */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 120px 140px;
+ } */
+.place {
+    color: black;
+    text-align: center;
+    font-size: 32px;
+}
+.date {
+    color: black;
+    text-align: center;
+    font-size: 32px;
+}
+.time {
+    color: black;
+    text-align: center;
+    font-size: 32px;
+}
+.container-color {
+    color: #FF0000;
+}
+.container-btn {
+    padding: 22px 18px 22px 18px;
+    background-color: #FF0000;
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+    width: 125px ;
+    height: 36px;
+    border-radius: 8px;
+    justify-content: center;
+    margin-top: 48px;
+    margin-left: 30px;
+}
+.btn-color{
+    color: #FFFFFF;
+    
+    
 }
