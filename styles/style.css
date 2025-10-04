@@ -126,7 +126,7 @@
 }
 /* container place style */
 .container {
-    background-color: #FFA8A8 ;
+    background-color: rgba(255, 0, 0, 0.05);
     width: 1047px;
     height: 382px;
     padding: 120px 140px;
@@ -261,8 +261,9 @@
     height: 1163px;
     margin-left: 140PX;
 }
-.product-img {
-    gap: 05px;
+.product-img:hover {
+    gap: 15px;
+    cursor: pointer;
 }
 .product-container-title {
     color: #FF0000;
@@ -292,10 +293,6 @@
     height: 150px;
     width: 150px;
     margin-top: 80px;
-}
-.newsletter-box {
-    
-    
 }
 .newsletter-title {
     width: 512px;
@@ -346,4 +343,43 @@
     outline: none;
     border-radius: 25px;
     
+}
+/* footer style */
+.footer-container {
+    background-color: black;
+    width: 1600px;
+    height: 609px;
+}
+.footer-box {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 140px;
+    gap: 559px;
+    
+}
+.footer-description {
+    width: 375px;
+    height: 80px;
+    font-size: 24px;
+    margin-top: 120px;
+}
+.footer-contact {
+    width: 251px;
+    height: 80px;
+    margin-top: 120px;
+}
+.footer-icon-container {
+    margin: 0 auto;
+    width: 328px;
+    height: 64px;
+}
+.resevered-box {
+    justify-content: space-between;
+    color: #FFFFFF;
+    display: flex;
+    margin: 120px;
+}
+fa-solid fa-phone {
+    color: #FFFFFF;
 }
